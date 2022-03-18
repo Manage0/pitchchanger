@@ -3,8 +3,6 @@
 const express = require('express')
 
 const multer = require('multer')
-const cors = require("cors");
-const corsHandler = cors({ origin: true });
 const download = require('download');
 var admin = require("firebase-admin");
 const { v4: uuidv4 } = require('uuid');
